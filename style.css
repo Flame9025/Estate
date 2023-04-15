@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	position: relative;
+	background-image: url(img/home_1920.jpg);
+	background-size: cover;
+}
+
+h1,
+h2,
+a {
+	display: block;
+	padding: 2rem;
+	text-align: center;
+	color: #fff;
+}
+
+.cover-image {
+	background-image: linear-gradient(rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7));
+	
+}
