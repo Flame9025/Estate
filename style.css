@@ -4,9 +4,14 @@
 	padding: 0;
 }
 
+:root {
+	font-size: 16px;
+}
+
 body {
 	background-color: #333;
 	font-family: "Roboto", sans-serif;
+	overflow-wrap: normal;
 }
 
 header {
@@ -21,8 +26,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	gap: 3rem;
 	padding: 1rem;
-
 }
 
 .cover-image {
@@ -32,9 +37,12 @@ header {
 
 h1,
 h2 {
-	padding: 1.5rem 0;
 	text-align: center;
 	color: #fff;
+}
+
+header h2 {
+	font-size: 0.9rem;
 }
 
 a {
@@ -43,10 +51,10 @@ a {
 	transform: translateX(-50%);
 	width: fit-content;
 	padding: 20px 30px;
+	margin-top: 40px;
 	background-color: #fff;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 16px;
 	color: #00aed9;
 	border: none;
 	border-radius: 30px;
