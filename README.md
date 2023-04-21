@@ -1,7 +1,7 @@
-Check my website in your browser:
+Check my website in your mobile:
 
 https://flame9025.github.io/Estate
 
-@ Plan:
-
-- Stworzyć responsywny header
+This site is a rebuild of: 
+https://flame9025.github.io/Landing-page---House-Flipping/ 
+to have cleaner code and improved responsiveness (RWD for mobile).
