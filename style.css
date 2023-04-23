@@ -14,6 +14,10 @@ body {
 	overflow-wrap: normal;
 }
 
+section {
+	padding: 1rem 0;
+}
+
 h2 {
 	font-size: 32px;
 }
@@ -42,7 +46,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	gap: 3rem;
-	padding: 1rem;
+	padding: 0.8rem;
 	text-align: center;
 }
 
@@ -77,7 +81,6 @@ a:hover {
 /* Strona Ikony!  ------------------------------- */
 
 .benefits {
-	min-height: 100vh;
 	background-color: #fff;
 }
 
@@ -114,32 +117,26 @@ a:hover {
 
 .leaders {
 	position: relative;
+	background-color: #fff;
 }
 
 .foto img {
 	display: block;
 	width: 100vw;
-	color: #fff;
-	background-color: #fff;
 }
 
 .foto-text {
-	position: absolute;
-	top: 6%;
-	left: 50%;
-	transform: translateX(-33%);
-	width: 450px;
-	padding: 30px;
-	color: #000;
-	letter-spacing: 0.6px;
-	background-color: rgba(255, 255, 255);
+	/* position: block; */
+	/* top: 6%; */
+	/* left: 50%; */
+	/* transform: translateX(-33%); */
+	/* width: 450px; */
+	/* padding: 30px; */
+	/* color: #000; */
+	/* margin-top: 1rem; */
+	/* letter-spacing: 0.6px; */
+	text-align: justify;
+	row-gap: 0.5rem;
 }
 
-p:first-child {
-	font-size: 24px;
-	font-weight: bold;
-}
-
-p {
-	font-size: 18px;
-}
+.foto-text > h3 {text-align: center;}
