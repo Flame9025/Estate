@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #333;
+	background-color: #fff;
 	font-family: "Roboto", sans-serif;
 	overflow-wrap: normal;
 }
@@ -28,8 +28,7 @@ h4 {
 	font-size: 18px;
 }
 
-header {
-	position: relative;
+.bg-image {
 	height: 100vh;
 	background-image: url(img/home_1920.jpg);
 	background-size: cover;
@@ -78,11 +77,7 @@ a:hover {
 	font-size: 18px;
 }
 
-/* Strona Ikony!  ------------------------------- */
-
-.benefits {
-	background-color: #fff;
-}
+/* Strona Benefits!  ------------------------------- */
 
 .benefits h2 {
 	font-size: 24px;
@@ -115,11 +110,6 @@ a:hover {
 
 /* Strona Leaders - przebudowa!  ------------------------------- */
 
-.leaders {
-	position: relative;
-	background-color: #fff;
-}
-
 .foto img {
 	display: block;
 	width: 100vw;
@@ -135,8 +125,22 @@ a:hover {
 	/* color: #000; */
 	/* margin-top: 1rem; */
 	/* letter-spacing: 0.6px; */
+	margin-top: 0.7rem;
+	padding-bottom: 1.5rem;
 	text-align: justify;
-	row-gap: 0.5rem;
+	row-gap: 0.7rem;
 }
 
-.foto-text > h3 {text-align: center;}
+.foto-text > h3 {
+	text-align: center;
+}
+
+/* Strona Formlarz - przebudowa!  ------------------------------- */
+
+.form {
+	padding: 0;
+}
+
+.bg-image--2 {
+	background-image: url(img/city2_1920.jpg);
+}
