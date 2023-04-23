@@ -44,6 +44,7 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	gap: 3rem;
 	padding: 0.8rem;
 	text-align: center;
@@ -58,9 +59,6 @@ header h3 {
 }
 
 a {
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
 	width: fit-content;
 	margin-top: 40px;
 	padding: 20px;
@@ -131,10 +129,6 @@ a:hover {
 	row-gap: 0.7rem;
 }
 
-.foto-text > h3 {
-	text-align: center;
-}
-
 /* Strona Formlarz - przebudowa!  ------------------------------- */
 
 .form {
@@ -143,4 +137,17 @@ a:hover {
 
 .bg-image--2 {
 	background-image: url(img/city2_1920.jpg);
+}
+
+.form__box {
+	width: 100vw;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form__box h2 {
+	display: inline-block;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	border-bottom: 3px solid steelblue;
 }
