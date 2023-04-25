@@ -108,18 +108,9 @@ a:hover {
 
 /* Strona Leaders - przebudowa!  ------------------------------- */
 
-.foto {
+img {
 	display: block;
-	width: 100vw;
-	/* height: 100vh; */
-	overflow: hidden;
-	border: 2px solid deeppink
-}
-
-.foto img {
-	display: block;
-	width: 100vw;
-	border: 2px solid rgb(37, 233, 37);
+	width: 100%;
 }
 
 .foto__text {
